@@ -1,7 +1,9 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import MissionSection from './components/MissionSection';
+import BoldMissionSection from './components/BoldMissionSection';
+import ModernMissionSection from './components/ModernMissionSection';
+import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,8 +19,10 @@ function App() {
 
       <Header />
       <Hero />
-      <MissionSection />
-      <Footer />
+      <BoldMissionSection />
+      <ModernMissionSection />
+      <ContactSection />
+      {/* <Footer /> */}
     </div>
   );
 }
