@@ -5,7 +5,7 @@ const Header = () => {
     <header className="relative z-10 px-6 py-6">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div >
-          <img src="/public/Vector.svg" alt="Klaryti Logo" className="w-32" />
+          <img src="/Vector.svg" alt="Klaryti Logo" className="w-32" />
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">
